@@ -1,0 +1,2331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Excel.Sheet"?>
+
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+	<DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+		<Author/>
+		<Title/>
+		<Description/>
+		<Subject/>
+	</DocumentProperties>
+	<Styles>
+		<Style ss:ID="HyperlinkId" ss:Name="Hyperlink">
+			<Font ss:Color="#0000ff"/>
+		</Style>
+		<Style ss:ID="1">
+			<NumberFormat ss:Format="yyyy-M-d HH:mm:ss AM/PM"/>
+		</Style>
+		<Style ss:ID="23">
+			<Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom"/>
+				<Border ss:Position="Top"/>
+				<Border ss:Position="Left"/>
+				<Border ss:Position="Right"/>
+				<Border ss:Position="DiagonalLeft"/>
+			</Borders>
+			<Font ss:FontName="sans-serif" ss:Size="9.0" ss:Color="#000000"/>
+		</Style>
+		<Style ss:ID="31">
+			<Alignment ss:Horizontal="Right" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#bfbfbf"/>
+				<Border ss:Position="Top"/>
+				<Border ss:Position="Left"/>
+				<Border ss:Position="Right"/>
+				<Border ss:Position="DiagonalLeft"/>
+			</Borders>
+			<Font ss:FontName="sans-serif" ss:Size="8.25" ss:Color="#000000"/>
+			<NumberFormat ss:Format="#,##0;(#,##0)"/>
+		</Style>
+		<Style ss:ID="26">
+			<Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000"/>
+				<Border ss:Position="Left"/>
+				<Border ss:Position="Right"/>
+				<Border ss:Position="DiagonalLeft"/>
+			</Borders>
+			<Font ss:FontName="sans-serif" ss:Size="8.25" ss:Bold="1" ss:Color="#000000"/>
+		</Style>
+		<Style ss:ID="27">
+			<Alignment ss:Horizontal="Right" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000"/>
+				<Border ss:Position="Left"/>
+				<Border ss:Position="Right"/>
+				<Border ss:Position="DiagonalLeft"/>
+			</Borders>
+			<Font ss:FontName="sans-serif" ss:Size="8.25" ss:Bold="1" ss:Color="#000000"/>
+		</Style>
+		<Style ss:ID="34">
+			<Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom"/>
+				<Border ss:Position="Top"/>
+				<Border ss:Position="Left"/>
+				<Border ss:Position="Right"/>
+				<Border ss:Position="DiagonalLeft"/>
+			</Borders>
+			<Font ss:FontName="sans-serif" ss:Size="8.25" ss:Bold="1" ss:Color="#000000"/>
+		</Style>
+		<Style ss:ID="33">
+			<Alignment ss:Horizontal="Right" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom"/>
+				<Border ss:Position="Top"/>
+				<Border ss:Position="Left"/>
+				<Border ss:Position="Right"/>
+				<Border ss:Position="DiagonalLeft"/>
+			</Borders>
+			<Font ss:FontName="sans-serif" ss:Size="8.25" ss:Bold="1" ss:Color="#000000"/>
+			<NumberFormat ss:Format="#,##0;(#,##0)"/>
+		</Style>
+		<Style ss:ID="20">
+			<Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom"/>
+				<Border ss:Position="Top"/>
+				<Border ss:Position="Left"/>
+				<Border ss:Position="Right"/>
+				<Border ss:Position="DiagonalLeft"/>
+			</Borders>
+			<Font ss:FontName="sans-serif" ss:Size="12.0" ss:Bold="1" ss:Color="#ff0000"/>
+		</Style>
+		<Style ss:ID="28">
+			<Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom"/>
+				<Border ss:Position="Top"/>
+				<Border ss:Position="Left"/>
+				<Border ss:Position="Right"/>
+				<Border ss:Position="DiagonalLeft"/>
+			</Borders>
+			<Font ss:FontName="sans-serif" ss:Size="8.25" ss:Color="#000000"/>
+		</Style>
+		<Style ss:ID="32">
+			<Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom"/>
+				<Border ss:Position="Top"/>
+				<Border ss:Position="Left"/>
+				<Border ss:Position="Right"/>
+				<Border ss:Position="DiagonalLeft"/>
+			</Borders>
+			<Font ss:FontName="sans-serif" ss:Size="8.25" ss:Color="#000000"/>
+		</Style>
+		<Style ss:ID="29">
+			<Alignment ss:Horizontal="Right" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom"/>
+				<Border ss:Position="Top"/>
+				<Border ss:Position="Left"/>
+				<Border ss:Position="Right"/>
+				<Border ss:Position="DiagonalLeft"/>
+			</Borders>
+			<Font ss:FontName="sans-serif" ss:Size="8.25" ss:Color="#000000"/>
+			<NumberFormat ss:Format="#,##0;(#,##0)"/>
+		</Style>
+		<Style ss:ID="21">
+			<Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom"/>
+				<Border ss:Position="Top"/>
+				<Border ss:Position="Left"/>
+				<Border ss:Position="Right"/>
+				<Border ss:Position="DiagonalLeft"/>
+			</Borders>
+			<Font ss:FontName="sans-serif" ss:Size="9.0" ss:Underline="Single" ss:Color="#000000"/>
+		</Style>
+		<Style ss:ID="22">
+			<Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom"/>
+				<Border ss:Position="Top"/>
+				<Border ss:Position="Left"/>
+				<Border ss:Position="Right"/>
+				<Border ss:Position="DiagonalLeft"/>
+			</Borders>
+			<Font ss:FontName="sans-serif" ss:Size="10.5" ss:Bold="1" ss:Underline="Single" ss:Color="#000000"/>
+		</Style>
+		<Style ss:ID="24">
+			<Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000"/>
+				<Border ss:Position="Left"/>
+				<Border ss:Position="Right"/>
+				<Border ss:Position="DiagonalLeft"/>
+			</Borders>
+			<Font ss:FontName="sans-serif" ss:Size="8.25" ss:Bold="1" ss:Color="#000000"/>
+		</Style>
+		<Style ss:ID="25">
+			<Alignment ss:Horizontal="Right" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom"/>
+				<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000"/>
+				<Border ss:Position="Left"/>
+				<Border ss:Position="Right"/>
+				<Border ss:Position="DiagonalLeft"/>
+			</Borders>
+			<Font ss:FontName="sans-serif" ss:Size="8.25" ss:Bold="1" ss:Color="#000000"/>
+		</Style>
+		<Style ss:ID="30">
+			<Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+			<Borders>
+				<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#bfbfbf"/>
+				<Border ss:Position="Top"/>
+				<Border ss:Position="Left"/>
+				<Border ss:Position="Right"/>
+				<Border ss:Position="DiagonalLeft"/>
+			</Borders>
+			<Font ss:FontName="sans-serif" ss:Size="8.25" ss:Color="#000000"/>
+		</Style>
+	</Styles>
+	<Names>
+		<NamedRange ss:Name="__bookmark_1" ss:RefersTo="Report!R5C1:R70C10"/>
+	</Names>
+
+<Worksheet ss:Name="Report">
+	<ss:Table>
+		<ss:Column ss:Width="70.912" ss:AutoFitWidth="0"/>
+		<ss:Column ss:Width="61.952" ss:AutoFitWidth="0"/>
+		<ss:Column ss:Width="62.08" ss:AutoFitWidth="0"/>
+		<ss:Column ss:Width="70.912" ss:AutoFitWidth="0"/>
+		<ss:Column ss:Width="79.744" ss:AutoFitWidth="0"/>
+		<ss:Column ss:Width="177.408" ss:AutoFitWidth="0"/>
+		<ss:Column ss:Width="61.952" ss:AutoFitWidth="0"/>
+		<ss:Column ss:Width="62.08" ss:AutoFitWidth="0"/>
+		<ss:Column ss:Width="62.08" ss:AutoFitWidth="0"/>
+		<ss:Column ss:Width="88.704" ss:AutoFitWidth="0"/>
+		<ss:Column ss:Width="8.064" ss:AutoFitWidth="0"/>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="20" ss:MergeAcross="9">
+				<Data ss:Type="String">FASTERFIT (K) LIMITED</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="21" ss:MergeAcross="9">
+				<Data ss:Type="String">ACCOUNT STATEMENT</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="22" ss:MergeAcross="9">
+				<Data ss:Type="String">[50002] SALARY EXPENSES ACCOUNT</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="23" ss:MergeAcross="9"/>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="26">
+				<Data ss:Type="String">DATE</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="26">
+				<Data ss:Type="String">BANK DATE</Data>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="26">
+				<Data ss:Type="String">TYPE</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="26">
+				<Data ss:Type="String">TXN NO.</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="26">
+				<Data ss:Type="String">REF NO.</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="26">
+				<Data ss:Type="String">DESCRIPTION</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="27">
+				<Data ss:Type="String">DEBIT</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="27">
+				<Data ss:Type="String">CREDIT</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="27">
+				<Data ss:Type="String">BALANCE</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="26">
+				<Data ss:Type="String">DONE BY</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">01/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">BAL</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">-</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">-</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">Opening Balance</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">101400.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">101400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">01/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00355</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR EMILY</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">5000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">106400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">02/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00356</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR CHARITY</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">4000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">110400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">02/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00356</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR SAMUEL MMADA</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">3000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">113400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">03/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00358</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR NANCY</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">2000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">115400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">03/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00358</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR YASMIN</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">4000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">119400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">04/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00359</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR EVERLINE</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">2000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">121400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">04/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00359</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR SAMUEL MMADA</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">3000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">124400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">04/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00359</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR ADESH</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">1500.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">125900.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">06/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00360</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FPR CHARITY</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">3500.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">129400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">06/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00360</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR EMILY</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">1000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">130400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">07/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00362</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR FARTUN</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">5000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">135400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">07/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00362</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY FOR ADVANCEMENT SYLVIA</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">3000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">138400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">07/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00362</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR BEN</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">2000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">140400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">07/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00362</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR FLORENCE</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">5000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">145400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">07/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00362</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR SAMUEL MMADA</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">1000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">146400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">08/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00364</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR EVERLINE`</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">1500.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">147900.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">11/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00367</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR EMILY</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">6000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">153900.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">11/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00367</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR ADESH</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">3000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">156900.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">11/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00367</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR SAMUEL MMADA</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">3000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">159900.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">13/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00368</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR YASMIN</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">4000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">163900.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">13/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00368</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR CHARITY</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">3000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">166900.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">17/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00373</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR EMILY</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">5000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">171900.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">18/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00375</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR TERVIL</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">6500.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">178400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">18/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00375</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR FARTUN</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">5000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">183400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">18/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00375</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR SAMUEL MMADA</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">2000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">185400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">18/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00375</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR ADESH</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">2000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">187400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">18/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00375</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR CHARITY SHOP 2</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">2000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">189400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">20/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00376</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR SAMUEL MMADA</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">3000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">192400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">20/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00376</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR EVERLYN</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">1000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">193400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">22/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00378</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR EVERLIINE</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">2000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">195400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">22/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00378</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR GLORIA</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">2000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">197400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">23/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00379</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR SAMUEL MADA</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">4000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">201400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">23/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00379</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR CHARITY SHOP 2</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">5000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">206400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">23/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00379</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR FLORENCE</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">2000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">208400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">23/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00379</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR NANCY</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">3000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">211400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">23/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00379</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR DOROTHY</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">5000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">216400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">23/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00379</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR TERVIIL</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">5000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">221400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">24/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00380</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR EMILY</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">5000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">226400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">24/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00380</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR EVERLINE</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">2000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">228400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">25/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00381</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR JOY WANGARI</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">2000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">230400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">25/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00381</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR SAMUEL MMADA</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">3000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">233400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">25/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00381</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR EVERLINE</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">1000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">234400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">27/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00382</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCCEMENT FOR DAVID MIRARA</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">2000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">236400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">27/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00382</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR BRENDA</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">5000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">241400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">27/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00382</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR EMILY</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">2000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">243400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">27/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00382</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR CHARITY SHOP 2</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">3000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">246400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">27/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00382</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR ADESH</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">1000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">247400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">27/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00382</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR EVERLINE</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">2000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">249400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">28/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00383</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR RAHMA</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">3000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">252400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">29/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00384</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR DOROTHY</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">3000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">255400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">29/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00384</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR BRENDA</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">2000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">257400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">29/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00384</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR NANCY</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">2000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">259400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">29/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00384</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR GLORIA</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">2000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">261400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">30/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00385</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR FLORENCE</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">1000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">262400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">30/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00385</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR CHARITY</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">4000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">266400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">30/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00385</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR SAMUEL MMADA</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">3000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">269400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">30/04/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00385</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR EVERLINE</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">2000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">271400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">02/05/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00387</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR RAHMA</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">3000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">274400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">02/05/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00387</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR EMILY</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">2000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">276400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">02/05/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00387</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR SAMUEL MMADA</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">5000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">281400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">02/05/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00387</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR EVERLINE</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">2000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">283400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">02/05/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00387</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR SYLVIA</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">10000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">293400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="30">
+				<Data ss:Type="String">02/05/2026</Data>
+			</Cell>
+			<Cell ss:Index="2" ss:StyleID="30">
+				<Data ss:Type="String"/>
+			</Cell>
+			<Cell ss:Index="3" ss:StyleID="30">
+				<Data ss:Type="String">PMT</Data>
+			</Cell>
+			<Cell ss:Index="4" ss:StyleID="30">
+				<Data ss:Type="String">PM00387</Data>
+			</Cell>
+			<Cell ss:Index="5" ss:StyleID="30">
+				<Data ss:Type="String">Cash</Data>
+			</Cell>
+			<Cell ss:Index="6" ss:StyleID="30">
+				<Data ss:Type="String">SALARY ADVANCEMENT FOR FARTUN</Data>
+			</Cell>
+			<Cell ss:Index="7" ss:StyleID="31">
+				<Data ss:Type="Number">5000.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="31">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="31">
+				<Data ss:Type="Number">298400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="30">
+				<Data ss:Type="String">DENNIS BROWN -</Data>
+			</Cell>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="32" ss:MergeAcross="5"/>
+			<Cell ss:Index="7" ss:StyleID="33">
+				<Data ss:Type="Number">298400.0</Data>
+			</Cell>
+			<Cell ss:Index="8" ss:StyleID="33">
+				<Data ss:Type="Number">0.0</Data>
+			</Cell>
+			<Cell ss:Index="9" ss:StyleID="33">
+				<Data ss:Type="Number">298400.0</Data>
+			</Cell>
+			<Cell ss:Index="10" ss:StyleID="34"/>
+		</Row>
+		<Row ss:AutoFitHeight="1">
+			<Cell ss:Index="1" ss:StyleID="23" ss:MergeAcross="9"/>
+		</Row>
+	</ss:Table>
+	<WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+		<PageSetup>
+			<PageMargins x:Bottom="0.25" x:Left="0.25" x:Right="0.25" x:Top="0.25"/>
+			<Layout x:Orientation="Landscape"/>
+			<Header/>
+			<Footer x:Data="&amp;L&amp;&#34;sans-serif&#34;&amp;10&amp;K7f7f7fPOWERED BY: EZEN FINANCIALS&amp;C&amp;&#34;sans-serif&#34;&amp;8&amp;K7f7f7fPRINTED AT: May 4, 2026, 12:13 PM"/>
+		</PageSetup>
+		<Print>
+			<PaperSizeIndex>9</PaperSizeIndex>
+		</Print>
+	</WorksheetOptions>
+</Worksheet>
+</Workbook>
